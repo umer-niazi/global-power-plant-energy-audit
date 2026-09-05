@@ -37,9 +37,9 @@ The models were trained to classify whether a power plant uses a renewable or no
 | Support Vector Machine | ~0.78 |
 | K-Nearest Neighbors | ~0.77 |
 | Random Forest | ~0.76 |
-| Logistic Regression | Lowest of the four |
+| Logistic Regression | ~0.66 |
 
-All four models performed within one to two percentage points of each other, suggesting that the selected features provide only limited separation between renewable and non-renewable plants. Accuracy has not yet been compared against a majority-class baseline.
+The top three models performed within one to two percentage points of each other, while Logistic Regression achieved ~0.66, suggesting that the selected features provide only limited separation between renewable and non-renewable plants. All models outperformed the majority-class baseline of 0.5262.
 
 ## Repository Structure
 
