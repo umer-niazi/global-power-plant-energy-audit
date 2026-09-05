@@ -28,6 +28,8 @@ The models were trained to classify whether a power plant uses a renewable or no
 
 ## Results
 
+### Random Forest Confusion Matrix
+
 <p align="center">
   <img src="figures/confusion_matrix.png" width="300"/>
 </p>
